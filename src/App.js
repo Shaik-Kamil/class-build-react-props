@@ -1,34 +1,38 @@
-import "./App.css";
-import Aside from "./components/Aside";
-import Header from "./components/Header";
-import Main from "./components/Main";
+import './App.css';
+import Aside from './components/Aside';
+import Header from './components/Header';
+import Main from './components/Main';
 
 const todaysDate = new Date().toDateString();
-const dayCareName = "Bark and Bowl Doggy Day Care";
+const dayCareName = 'Bark and Bowl Doggy Day Care';
 const dogs = [
   {
-    name: "Mitsy",
+    name: 'Mitsy',
     present: true,
-    grade: "60",
+    grade: '60',
     notes: "Stole Prince's toys repeatedly.",
+    id: 1,
   },
   {
-    name: "Misty",
+    name: 'Misty',
     present: false,
-    grade: "90",
-    notes: "We missed Misty today. We hope we see her tomorrow",
+    grade: '90',
+    notes: 'We missed Misty today. We hope we see her tomorrow',
+    id: 2,
   },
   {
-    name: "Bingo",
+    name: 'Bingo',
     present: true,
-    grade: "65",
-    notes: "Had 3 baths today. He kept rolling in the mud.",
+    grade: '65',
+    notes: 'Had 3 baths today. He kept rolling in the mud.',
+    id: 3,
   },
   {
-    name: "Prince",
+    name: 'Prince',
     present: true,
-    grade: "80",
-    notes: "It was his first day and he hid under a chair for most of it.",
+    grade: '80',
+    notes: 'It was his first day and he hid under a chair for most of it.',
+    id: 4,
   },
 ];
 
